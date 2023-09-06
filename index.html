@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Aquí van mis estilos externos -->
+    <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+<body>
+
+    <h1>
+        Introducción a CSS
+    </h1>
+
+    <h2>
+        Éste párrafo tiene estilos en línea (inline)
+    </h2>
+    <p style="background-color: brown; color: beige; font-size: large; font-family: 'Times New Roman', Times, serif;">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptatibus quidem porro enim iste quo quia officia cum ut illo? Aliquid, hic animi culpa ut ullam optio expedita soluta eius?
+    </p>
+
+
+    <style>
+        body {
+            background-color: aquamarine;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: x-large;
+        }
+    </style>
+
+
+    <h2>
+        Éste párrafo tiene estilos usando la etiqueta style
+    </h2>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, tenetur harum itaque earum quam vel doloribus libero magni accusamus dolor tempore illum doloremque qui nihil minima, atque necessitatibus quidem? A?
+    </p>
+
+    <h2>
+        Éste párrafo tiene estilos en un documento externo
+    </h2>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et esse impedit reiciendis magni veniam provident mollitia, iusto architecto accusamus totam iste consequuntur assumenda eveniet beatae, nulla aliquam laborum voluptatibus cum?
+    </p>
+
+    <!-- Lista de participantes e instructores Generation (clases y id's) -->
+    <h1 class="CH31" id="Aaron">
+        Aaron
+    </h1>
+    <h1 class="CH31" id="Brandon">
+        Brandon
+    </h1>
+    <h1 class="CH31" id="Antonio">
+        Antonio
+    </h1>
+    <h1 class="CH31" id="Edna">
+        Edna
+    </h1>
+    <h1 class="CH30" id="Tania">
+        Tania
+    </h1>
+    
+</body>
+</html>
+
+<!--
+    Existen 3 formas de agregar estilos a un documento de HTML
+    
+    - inline (en linea)
+    - usando etiquetas <style>
+    - referencia a un documento de estilos externo (mejor práctica)
+        Ventajas:
+            > Escalabilidad (tener todo separado y modiciar por partes)
+            > Seguridad en nuestro proyecto
+            > Código más limpio y entendible
+-->
